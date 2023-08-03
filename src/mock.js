@@ -13,8 +13,6 @@ const defaultMocks = mockDataFiles.reduce((acc, mockFile) => {
     }
 }, {})
 
-console.log(defaultMocks)
-
 export default {
     Int: () => 65,
     Float: () => 12.34,
