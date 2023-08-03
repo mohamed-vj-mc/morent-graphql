@@ -13,10 +13,10 @@ const mockDataFiles = fs.readdirSync(mockDataFolderPath);
 
 // Watch the schema file for changes
 const watcher = chokidar.watch(schemaFilePath);
-watcher.on('change', () => {
-    console.log('Schema file changed. Updating mock data files...');
-    updateMockDataFiles();
-});
+// watcher.on('change', () => {
+//     console.log('Schema file changed. Updating mock data files...');
+//     updateMockDataFiles();
+// });
 
 // Function to update the mock data files
 function updateMockDataFiles() {

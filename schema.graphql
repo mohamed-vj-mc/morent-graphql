@@ -1,41 +1,21 @@
-type Rental {
-  id: ID!
-  car: Car!
-  renterName: String!
-  rentalStartDate: String!
-  rentalEndDate: String!
-}
-
 type Car {
   id: ID!
-  make: String!
-  model: String!
-  year: Int!
-  dailyRentalRate: Float!
-  isAvailable: Boolean!
-  reviews: [Review!]!
+  name: String!
+  type: String!
+  image: String!
+  fuelCapacity: String!
+  transmission: String!
+  capacity: Int!
+  rentalPrice: RentalPrice!
 }
 
-# Define the review type
-type Review {
-  id: ID!
-  car: Car!
-  rating: Float!
-  comment: String!
-  reviewerName: String!
+type RentalPrice {
+  discountedPrice: Float!
+  actualPrice: Float!
 }
 
-# Define the queries available in the schema
 type Query {
-  # Get a list of all available cars with pagination
-  availableCars(page: Int = 1, perPage: Int = 20): [Car!]!
-
-  # Get a list of popular cars (example: based on rental frequency or user ratings)
   popularCars(page: Int = 1, perPage: Int = 10): [Car!]!
-
-  # Get a list of recommended cars (example: based on user preferences or ratings)
   recommendedCars(page: Int = 1, perPage: Int = 10): [Car!]!
-
-  # Get a single car by its ID
-#  carById(id: ID!): Car
+  #  carById(id: ID!): Car
 }
