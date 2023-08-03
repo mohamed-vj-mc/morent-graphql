@@ -2,58 +2,6 @@
   "scenarios": {
     "default": [
       {
-        "id": "1",
-        "name": "All-new Rush",
-        "type": "SUV",
-        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/all-new-rush.png",
-        "fuelCapacity": "70L",
-        "transmission": "Automatic",
-        "capacity": 7,
-        "rentalPrice": {
-          "discountedPrice": 90.0,
-          "actualPrice": 110.0
-        }
-      },
-      {
-        "id": "2",
-        "name": "All-new Terios",
-        "type": "SUV",
-        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/all-new-terios.png",
-        "fuelCapacity": "65L",
-        "transmission": "Automatic",
-        "capacity": 5,
-        "rentalPrice": {
-          "discountedPrice": 80.0,
-          "actualPrice": 100.0
-        }
-      },
-      {
-        "id": "3",
-        "name": "CR-V 2",
-        "type": "SUV",
-        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/cr-v-2.png",
-        "fuelCapacity": "60L",
-        "transmission": "Automatic",
-        "capacity": 5,
-        "rentalPrice": {
-          "discountedPrice": 85.0,
-          "actualPrice": 105.0
-        }
-      },
-      {
-        "id": "4",
-        "name": "CR-V",
-        "type": "SUV",
-        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/cr-v.png",
-        "fuelCapacity": "70L",
-        "transmission": "Automatic",
-        "capacity": 5,
-        "rentalPrice": {
-          "discountedPrice": 90.0,
-          "actualPrice": 110.0
-        }
-      },
-      {
         "id": "5",
         "name": "Koenigsegg",
         "type": "Sport",
@@ -66,32 +14,7 @@
           "actualPrice": 180.0
         }
       },
-      {
-        "id": "6",
-        "name": "MG ZX Exclusive",
-        "type": "Sedan",
-        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/mg-zx-exclusive.png",
-        "fuelCapacity": "60L",
-        "transmission": "Automatic",
-        "capacity": 5,
-        "rentalPrice": {
-          "discountedPrice": 75.0,
-          "actualPrice": 95.0
-        }
-      },
-      {
-        "id": "7",
-        "name": "New MG ZS",
-        "type": "SUV",
-        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/new-mg-zs.png",
-        "fuelCapacity": "65L",
-        "transmission": "Automatic",
-        "capacity": 5,
-        "rentalPrice": {
-          "discountedPrice": 80.0,
-          "actualPrice": 100.0
-        }
-      },
+
       {
         "id": "8",
         "name": "Nissan GT-R",
@@ -116,6 +39,19 @@
         "rentalPrice": {
           "discountedPrice": 120.0,
           "actualPrice": 150.0
+        }
+      },
+      {
+        "id": "4",
+        "name": "CR-V",
+        "type": "SUV",
+        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/cr-v.png",
+        "fuelCapacity": "70L",
+        "transmission": "Automatic",
+        "capacity": 5,
+        "rentalPrice": {
+          "discountedPrice": 90.0,
+          "actualPrice": 110.0
         }
       }
     ]
