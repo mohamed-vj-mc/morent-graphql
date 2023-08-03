@@ -14,7 +14,8 @@ const server = new ApolloServer({
     schema: addMocksToSchema({
         schema,
         mocks
-    })
+    }),
+    introspection: true
 });
 // Passing an ApolloServer instance to the `startStandaloneServer` function:
 //  1. creates an Express app
