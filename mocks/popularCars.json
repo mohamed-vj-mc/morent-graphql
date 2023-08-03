@@ -1,0 +1,96 @@
+{
+  "scenarios": {
+    "default": [
+      {
+        "id": "1",
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "dailyRentalRate": 50.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "2",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "dailyRentalRate": 45.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "3",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "dailyRentalRate": 70.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "4",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 2022,
+        "dailyRentalRate": 60.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "5",
+        "make": "BMW",
+        "model": "X5",
+        "year": 2019,
+        "dailyRentalRate": 80.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "6",
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "dailyRentalRate": 75.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "7",
+        "make": "Audi",
+        "model": "A4",
+        "year": 2021,
+        "dailyRentalRate": 70.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "8",
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2022,
+        "dailyRentalRate": 90.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "9",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2019,
+        "dailyRentalRate": 55.0,
+        "isAvailable": true,
+        "reviews": []
+      },
+      {
+        "id": "10",
+        "make": "Volkswagen",
+        "model": "Jetta",
+        "year": 2021,
+        "dailyRentalRate": 50.0,
+        "isAvailable": true,
+        "reviews": []
+      }
+    ]
+  }
+}

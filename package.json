@@ -1,0 +1,25 @@
+{
+  "name": "morent-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "scafold-mocks": "node ./src/mock-generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.0",
+    "@graphql-tools/mock": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "graphql": "^16.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "chokidar": "^3.5.3",
+    "typescript": "^5.1.6"
+  }
+}
