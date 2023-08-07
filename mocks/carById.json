@@ -5,6 +5,7 @@
       "name": "Koenigsegg",
       "type": "Sport",
       "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/koenigsegg.png",
+      "description": "The Koenigsegg car is a high-performance, ultra-luxurious, and exclusive hyper car crafted by the Swedish automaker, Koenigsegg Automotive AB. Renowned for pushing the boundaries of automotive engineering, Koenigsegg cars are considered some of the fastest and most technologically advanced vehicles in the world.",
       "fuelCapacity": "70L",
       "transmission": "Manual",
       "capacity": 2,
