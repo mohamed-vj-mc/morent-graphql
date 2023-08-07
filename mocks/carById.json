@@ -1,18 +1,63 @@
 {
   "scenarios": {
-    "default": {
-      "id": "5",
-      "name": "Koenigsegg",
-      "type": "Sport",
-      "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/koenigsegg.png",
-      "description": "The Koenigsegg car is a high-performance, ultra-luxurious, and exclusive hyper car crafted by the Swedish automaker, Koenigsegg Automotive AB. Renowned for pushing the boundaries of automotive engineering, Koenigsegg cars are considered some of the fastest and most technologically advanced vehicles in the world.",
-      "fuelCapacity": "70L",
-      "transmission": "Manual",
-      "capacity": 2,
-      "rentalPrice": {
-        "discountedPrice": 150.0,
-        "actualPrice": 180.0
+    "default": [
+      {
+        "id": "5",
+        "name": "Koenigsegg",
+        "type": "Sport",
+        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/koenigsegg.png",
+        "description": "The Koenigsegg car is a high-performance, ultra-luxurious, and exclusive hyper car crafted by the Swedish automaker, Koenigsegg Automotive AB. Renowned for pushing the boundaries of automotive engineering, Koenigsegg cars are considered some of the fastest and most technologically advanced vehicles in the world.",
+        "fuelCapacity": "70L",
+        "transmission": "Manual",
+        "capacity": 2,
+        "rentalPrice": {
+          "discountedPrice": 150.0,
+          "actualPrice": 180.0
+        }
+      },
+
+      {
+        "id": "8",
+        "name": "Nissan GT-R",
+        "type": "Sport",
+        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/nissan-gt-r.png",
+        "description":"The Nissan GT-R, often referred to as "Godzilla" among enthusiasts, is a high-performance sports car that embodies a perfect blend of power, technology, and driving precision. First introduced in 2007, the GT-R quickly gained a reputation for its exceptional performance on both the track and the road. The car boasts a striking and aerodynamic design, featuring sharp lines and a distinctive rear wing. Under the hood, it houses a potent twin-turbocharged V6 engine, known for its relentless power delivery and impressive acceleration.",
+        "fuelCapacity": "80L",
+        "transmission": "Manual",
+        "capacity": 2,
+        "rentalPrice": {
+          "discountedPrice": 80.0,
+          "actualPrice": 100.0
+        }
+      },
+      {
+        "id": "9",
+        "name": "Rolls-Royce",
+        "type": "Luxury",
+        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/rolls-royce.png",
+        "description":"Rolls-Royce represents the pinnacle of luxury and automotive craftsmanship, known for producing some of the world's most opulent and prestigious automobiles. Founded in 1904, the British manufacturer has established an unparalleled reputation for crafting vehicles that offer the utmost in comfort, refinement, and elegance. Each Rolls-Royce car is meticulously handcrafted, customized to the precise desires of its discerning owners. From the iconic Spirit of Ecstasy ornament adorning the radiator grille to the lavish interior materials and amenities, no detail is spared in creating a true automotive masterpiece.", 
+        "fuelCapacity": "75L",
+        "transmission": "Automatic",
+        "capacity": 4,
+        "rentalPrice": {
+          "discountedPrice": 120.0,
+          "actualPrice": 150.0
+        }
+      },
+      {
+        "id": "4",
+        "name": "CR-V",
+        "type": "SUV",
+        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/cr-v.png",
+        "description":"The CR-V features a stylish and modern design with smooth lines and a well-proportioned body, making it visually appealing to a wide range of consumers. Its spacious interior provides ample room for both passengers and cargo, making it an ideal choice for families, commuters, and anyone seeking a comfortable and versatile ride.",
+        "fuelCapacity": "70L",
+        "transmission": "Automatic",
+        "capacity": 5,
+        "rentalPrice": {
+          "discountedPrice": 90.0,
+          "actualPrice": 110.0
+        }
       }
-    }
+    ]
   }
 }
