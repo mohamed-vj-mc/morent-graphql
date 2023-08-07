@@ -6,7 +6,21 @@ type Car {
   fuelCapacity: String!
   transmission: String!
   capacity: Int!
-  rentalPrice: RentalPrice!
+  rentalPrice: RentalPrice
+  reviews: [Review!]!
+}
+
+type Review {
+    id: ID!
+    rating: Int!
+    description: String!
+    user: User!
+}
+
+type User {
+  name: String!
+  designation: String!
+  avatar: String!
 }
 
 type RentalPrice {
@@ -17,5 +31,5 @@ type RentalPrice {
 type Query {
   popularCars(page: Int = 1, perPage: Int = 10): [Car!]!
   recommendedCars(page: Int = 1, perPage: Int = 10): [Car!]!
-  #  carById(id: ID!): Car
+  carById(id: ID!): Car
 }

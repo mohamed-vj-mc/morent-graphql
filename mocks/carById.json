@@ -1,0 +1,17 @@
+{
+  "scenarios": {
+    "default": {
+      "id": "5",
+      "name": "Koenigsegg",
+      "type": "Sport",
+      "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/koenigsegg.png",
+      "fuelCapacity": "70L",
+      "transmission": "Manual",
+      "capacity": 2,
+      "rentalPrice": {
+        "discountedPrice": 150.0,
+        "actualPrice": 180.0
+      }
+    }
+  }
+}
