@@ -3,6 +3,7 @@ type Car {
   name: String!
   type: String!
   image: String!
+  description: String!
   fuelCapacity: String!
   transmission: String!
   capacity: Int!
