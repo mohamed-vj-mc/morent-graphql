@@ -1,39 +1,40 @@
 {
   "scenarios": {
-    "default": 
-      {
-        "id": "5",
-        "name": "Koenigsegg",
-        "type": "Sport",
-        "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/koenigsegg.png",
-        "description": "The Koenigsegg car is a high-performance, ultra-luxurious, and exclusive hyper car crafted by the Swedish automaker, Koenigsegg Automotive AB. Renowned for pushing the boundaries of automotive engineering, Koenigsegg cars are considered some of the fastest and most technologically advanced vehicles in the world.",
-        "fuelCapacity": "70L",
-        "transmission": "Manual",
-        "capacity": 2,
-        "rentalPrice": {
-          "discountedPrice": 150.0,
-          "actualPrice": 180.0,
-        },
-        "reviews":[{
-            "id":1,
-          "rating": 3,
-      "description":" simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-    "user":{
-      "name":"Linto",
-      "designation":"Developer",
-      "avatar":"ProfileImg",
-        }
+    "default": {
+      "id": "5",
+      "name": "Koenigsegg",
+      "type": "Sport",
+      "image": "https://jxscaunufqjgqydotewb.supabase.co/storage/v1/object/public/mc-morent-fe/cars/koenigsegg.png",
+      "description": "The Koenigsegg car is a high-performance, ultra-luxurious, and exclusive hyper car crafted by the Swedish automaker, Koenigsegg Automotive AB. Renowned for pushing the boundaries of automotive engineering, Koenigsegg cars are considered some of the fastest and most technologically advanced vehicles in the world.",
+      "fuelCapacity": "70L",
+      "transmission": "Manual",
+      "capacity": 2,
+      "rentalPrice": {
+        "discountedPrice": 150.0,
+        "actualPrice": 180.0
       },
-          {
-            "id":2,
+      "reviews": [
+        {
+          "id": 1,
+          "rating": 3,
+          "description": " simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+          "user": {
+            "name": "Linto",
+            "designation": "Developer",
+            "avatar": "ProfileImg"
+          }
+        },
+        {
+          "id": 2,
           "rating": 1,
-      "description":" simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-    "user":{
-      "name":"joyce",
-      "designation":"Developer",
-      "avatar":"ProfileImg",
+          "description": " simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+          "user": {
+            "name": "joyce",
+            "designation": "Developer",
+            "avatar": "ProfileImg"
+          }
         }
-      }]
-      }
+      ]
+    }
   }
 }
