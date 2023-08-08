@@ -13,8 +13,8 @@
         "rentalPrice": {
           "discountedPrice": 150.0,
           "actualPrice": 180.0,
-        }
-        "reviews":{
+        },
+        "reviews":[{
             "id":1,
           "rating": 3,
       "description":" simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
@@ -23,7 +23,17 @@
       "designation":"Developer",
       "avatar":"ProfileImg",
         }
-      }
+      },
+          {
+            "id":2,
+          "rating": 1,
+      "description":" simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+    "user":{
+      "name":"joyce",
+      "designation":"Developer",
+      "avatar":"ProfileImg",
+        }
+      }]
       }
   }
 }
