@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: morent-graphql
+  annotations:
+    github.com/project-slug: mohamed-vj-mc/morent-graphql
+spec:
+  type: other
+  lifecycle: unknown
+  owner: portal
